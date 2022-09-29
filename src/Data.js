@@ -120,32 +120,32 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How often should I exercise?",
+        question: "How often should I pray?",
         answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
+        question: "What time of day is best to pray?",
         answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
+        question: "How long should my prayer be?",
         answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
+        question: "Do I need to pray always?",
         answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
+        question: "How can i get guideline?",
         answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
+        question: "Should I hjhsdh sjhsdb sksdf",
         answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
     }
 ]
