@@ -51,8 +51,8 @@ export const programs = [
         icon: <SiOpenaigym/>,
         title: "Prayer Two",
         info: "Father Thank you for destroying all interferance of the devil against the continuous growth of this church",
-        scripture:"Psalm 91:10",
-        full: "There shall no evil befall thee, neither shall any plague come nigh thy dwelling. ",
+        scripture:"Matt 16:18",
+        full: "Upon this rock I will build my church; and the gates of hell shall not prevail against it ",
         path: "/prayer2"
     },
     {
@@ -60,8 +60,8 @@ export const programs = [
         icon: <SiOpenaigym/>,
         title: "Prayer Three",
         info: "Father Thank you for the devine protection you have continued to grant every worshiper of this church against all evil ",
-        scripture:"Psalm 91:10",
-        full: "There shall no evil befall thee, neither shall any plague come nigh thy dwelling. ",
+        scripture:"Acts 2:6/41",
+        full: "Now when this was noised abroad, the multitude came together,.. Then they that gladly recieved his word were baptized: and the same day tehre were added unto them about three thousand souls ",
         path: "/prayer3"
     },
     {
@@ -69,8 +69,8 @@ export const programs = [
         icon: <SiOpenaigym/>,
         title: "Prayer Four",
         info: "Father thank you for opening the eyes of all discouraged winners to see this church as their God-ordained city of refuge, where their trials will be turned into testimonies",
-        scripture:"Psalm 91:10",
-        full: "There shall no evil befall thee, neither shall any plague come nigh thy dwelling. ",
+        scripture:"Luke 21:3",
+        full: "And it shall turn to you for a testimony. ",
         path: "/prayer4"
     }
 ]
