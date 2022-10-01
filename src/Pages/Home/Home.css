@@ -293,12 +293,10 @@
   border-radius: 1.5rem;
   transition: var(--transition);
   position: relative;
-  /* top: -3.9rem;
 
-  display:grid;
-  justify-content: left; */
   display: flex;
-  top: -3rem;
+  top: -3.9rem;
+  margin-left: 40rem;
  
 
 
