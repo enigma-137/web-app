@@ -15,7 +15,8 @@ const Prayer1 = () => {
    
   return (
 
-     <Card className= 'prayer__card'  key={id}>       
+     <Card className= 'prayer__card'  key={id}>     
+      <Link to='/' className='prayer__btn'>Close</Link>  
                
                 <h1>{title}</h1>
                 <p>{info}</p>
@@ -25,7 +26,7 @@ const Prayer1 = () => {
             {showFull && <small>{full}</small>}
             </div>
            
-                <Link to='/' className='prayer__btn'>Close</Link>
+               
     </Card>
        
  

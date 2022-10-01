@@ -162,7 +162,6 @@
 }
 .card.values_value span {
   position: absolute;
-
   top: -1.5rem;
 }
 
@@ -286,16 +285,23 @@
   font-weight: 900;
 }
 
-.prayer__btn {
-  text-align: right;
+.card .prayer__btn {
   color: var(--color-gray-100);
   width: fit-content;
   background: var(--color-primary);
   padding: 0.9rem 2rem;
   border-radius: 1.5rem;
   transition: var(--transition);
-  position: absolute;
-  margin-top: 1.8rem;
+  position: relative;
+  /* top: -3.9rem;
+
+  display:grid;
+  justify-content: left; */
+  display: flex;
+  top: -3rem;
+ 
+
+
 }
 
 .prayer__btn:hover {

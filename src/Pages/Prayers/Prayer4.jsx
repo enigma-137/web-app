@@ -9,14 +9,14 @@ const Prayer4 = () => {
 
   const [showFull, setShowFull] = useState(false)
 
-    const  { id, title, info, scripture, full } = programs[0]
+    const  { id, title, info, scripture, full } = programs[3]
 
 
    
   return (
 
      <Card className= 'prayer__card'  key={id}>       
-               
+                <Link to='/' className='prayer__btn'>Close</Link>
                 <h1>{title}</h1>
                 <p>{info}</p>
                <div   onClick={()=> setShowFull(prev => !prev)}>
@@ -25,7 +25,7 @@ const Prayer4 = () => {
             {showFull && <small>{full}</small>}
             </div>
            
-                <Link to='/' className='prayer__btn'>Close</Link>
+              
     </Card>
        
  
