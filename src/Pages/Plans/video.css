@@ -1,0 +1,16 @@
+.video {
+position: absolute;
+width: 100%;
+}
+.video__content {
+    position: relative;
+    width: 44%;
+    margin: 24rem auto;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    -webkit-text-stroke: 0.8px white;
+
+  
+    
+}

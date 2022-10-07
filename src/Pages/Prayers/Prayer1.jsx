@@ -1,4 +1,5 @@
 import Card from '../../UI/Card'
+import {FiCornerRightDown} from 'react-icons/fi'
 import { useState } from 'react'
 import { programs } from '../../Data'
 import { Link } from "react-router-dom"
@@ -21,8 +22,11 @@ const Prayer1 = () => {
                 <h1>{title}</h1>
                 <p>{info}</p>
                <div   onClick={()=> setShowFull(prev => !prev)}>
-               <h3><b>{scripture}</b></h3>
+                <small><i>Click the scripture reference to open scripture</i></small>
+              <span> <FiCornerRightDown /></span>
 
+               <h3><b>{scripture}</b></h3>
+              
             {showFull && <small>{full}</small>}
             </div>
            

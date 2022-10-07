@@ -284,6 +284,23 @@
   color: var(--color-secondary);
   font-weight: 900;
 }
+.prayer__card h3 {
+  color: var(--color-secondary);
+  font-weight: 900;
+}
+.prayer__card h3:hover {
+  color: var(--color-gray-200);
+  font-weight: 500;
+}
+.prayer__card span {
+  font-weight: 900;
+  background: none;
+  padding: 0 auto;
+}
+.prayer__card i {
+  font-size: 0.7rem;
+padding: auto;
+}
 
 .card .prayer__btn {
   color: var(--color-gray-100);
@@ -391,6 +408,7 @@ footer {
   .programs__wrapper {
     grid-template-columns: 1fr 1fr;
   }
+  
   /* Values */
   .values__container {
     grid-template-columns: 1fr;
@@ -442,11 +460,23 @@ footer {
   .programs__wrapper {
     grid-template-columns: 1fr;
     gap: 2rem;
-    margin-top: 3rem;
+    margin: 3rem 0 auto auto;
+    width: fit-content;
+
   }
   .programs__program {
-    width: 64%;
+    width: 90%;
     margin: 0 auto;
+  }
+  .programs__program small {
+    width: 300px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 30px;
+    font-size: 1rem;
+    margin: 0;
+    resize: horizontal;
   }
 
   .values__wrapper {

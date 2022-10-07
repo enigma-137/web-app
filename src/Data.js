@@ -16,11 +16,11 @@ export const links = [
         path: '/gallery'
     },
     {
-        name: "Plans",
+        name: "Resources",
         path: '/plans'
     },
     {
-        name: "Trainers",
+        name: "Programs",
         path: '/trainers'
     },
     {
@@ -163,35 +163,35 @@ export const testimonials = [
         name: "Diana Ayi",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Student",
-        avatar: require("./images/avatar1.jpg")
+        avatar: require("./images/cap-2923682_1920.jpg")
     },
     {
         id: 2,
         name: "Daniel Vinyo",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Software Egineer",
-        avatar: require("./images/avatar2.jpg")
+        avatar: require("./images/business-woman-2756210_1920.jpg")
     },
     {
         id: 3,
         name: "Edem Quist",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "University Lecturer",
-        avatar: require("./images/avatar3.jpg")
+        avatar: require("./images/entrepreneur-866662_1920.jpg")
     },
     {
         id: 4,
         name: "Grace Lavoe",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Talking Parrot",
-        avatar: require("./images/avatar4.jpg")
+        avatar: require("./images/girl-3421489_1920.jpg")
     },
     {
         id: 5,
         name: "Nana Yaa Dankwa",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Pharmacist",
-        avatar: require("./images/avatar5.jpg")
+        avatar: require("./images/woman-3116587_1920.jpg")
     }
 ]
 
@@ -275,53 +275,53 @@ export const plans = [
 
 
 
-const Trainer1 = require('./images/trainer1.jpg')
-const Trainer2 = require('./images/trainer2.jpg')
-const Trainer3 = require('./images/trainer3.jpg')
-const Trainer4 = require('./images/trainer4.jpg')
-const Trainer5 = require('./images/trainer5.jpg')
-const Trainer6 = require('./images/trainer6.jpg')
+// const Trainer1 = require('./images/trainer1.jpg')
+// const Trainer2 = require('./images/trainer2.jpg')
+// const Trainer3 = require('./images/trainer3.jpg')
+// const Trainer4 = require('./images/trainer4.jpg')
+// const Trainer5 = require('./images/trainer5.jpg')
+// const Trainer6 = require('./images/trainer6.jpg')
 
 
 export const trainers = [
     {
         id: 1,
-        image: Trainer1,
+        // image: Trainer1,
         name: 'John Doe',
         job: 'Aerobic Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
-        image: Trainer2,
+        // image: Trainer2,
         name: 'Daniel vinyo',
         job: 'Speed Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
-        image: Trainer3,
+        // image: Trainer3,
         name: 'Edem Quist',
         job: 'Flexibility Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
-        image: Trainer4,
+        // image: Trainer4,
         name: 'Shatta Wale',
         job: 'Body Composition Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 5,
-        image: Trainer5,
+        // image: Trainer5,
         name: 'Diana Ayi',
         job: 'Circuit Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 6,
-        image: Trainer6,
+        // image: Trainer6,
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']

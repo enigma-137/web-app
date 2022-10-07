@@ -1,13 +1,17 @@
-import Image from '../images/avatar4.jpg'
-
-const Header = () => {
+ 
+const Header = ({title, image, children}) => {
   return (
-    <div className='header__container'>
-<div className="header__bg-image"> <img src={Image} alt="" srcset="" /></div>
-{/* <h1>{MainHeader}</h1>
-
-<p>{paragraph}</p> */}
+   <header className='header'>
+  <div className="header_container">
+    <div className="header__container-bg">
+      <img src={image} alt="background" />
     </div>
+    <div className="header_content">
+      <h2>{title}</h2>
+      <p>{children}</p>
+    </div>
+  </div>
+   </header>
   )
 }
 

@@ -14,6 +14,7 @@ import Prayer1 from './Pages/Prayers/Prayer1';
 import Prayer2 from './Pages/Prayers/Prayer2';
 import Prayer3 from './Pages/Prayers/Prayer3';
 import Prayer4 from './Pages/Prayers/Prayer4';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
         <Route path='prayer4' element={<Prayer4 />} />
       
       </Routes>
-     
+     <Footer />
     </BrowserRouter>
   );
 }

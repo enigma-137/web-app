@@ -7,7 +7,7 @@ const Programs = () => {
 
  
   return (
-    <section className="programs">
+    <section id='program' className="programs">
       <div className="container programs__container">
         <SectionHead icon={<GiPrayer />} title= {`Today's Prayers`} />
     

@@ -1,8 +1,17 @@
 import React from 'react'
+// import Header from '../../Components/Header'
+// import HeaderImage from '../../images/pexels-luis-quintero-2014775.jpg'
+import Video from './Video'
 
 const Plans = () => {
   return (
-    <div>Plans</div>
+    <React.Fragment>
+        {/* <Header title ='Our Drive' image={HeaderImage} >  */}
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id assumenda necessitatibus facilis?</p> 
+        {/* </Header> */}
+   <Video/>
+    </React.Fragment>
+ 
   )
 }
 
