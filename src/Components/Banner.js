@@ -10,6 +10,7 @@ const Banner = () => {
         </div>
        
         <h1> Join us in promoting God's kingdom</h1>
+        <h2> Matt 6:33  Our Code</h2>
     </div>
 
     </div>

@@ -1,10 +1,10 @@
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
-import Gallery from './Pages/Igallery/Gallery';
+import Team from './Pages/Teams/Team';
 import Notfound from './Pages/Notfound/Notfound';
 import Plans from './Pages/Plans/Plans';
-import Trainers from './Pages/Trainers/Trainers';
+import Programs from './Pages/Programs/program';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
@@ -17,6 +17,7 @@ import Prayer4 from './Pages/Prayers/Prayer4';
 import Footer from './Components/Footer';
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,9 +26,9 @@ function App() {
         <Route index  element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='contact' element={<Contact/>} />
-        <Route path='Gallery' element={<Gallery />} />
+        <Route path='team' element={<Team />} />
         <Route path='plans' element={<Plans />} />
-        <Route path='trainers' element={<Trainers/>} />
+        <Route path='programs' element={<Programs/>} />
         <Route path='*' element={<Notfound />} />
         <Route path='prayer1' element={<Prayer1 />} />
         <Route path='prayer2' element={<Prayer2 />} />
